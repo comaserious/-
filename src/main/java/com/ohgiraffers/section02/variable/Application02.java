@@ -71,8 +71,10 @@ public class Application02 {
         /*목차. 2-3. 문자를 취급하는 자료형에 값 대입*/
 
         ch = 'a';
-        ch = 97;                // 'a' 는 97은 숫자였지? 그래서 숫자로도 저장할 수 있다.
+        System.out.println(ch);
 
+        ch = 97;    // 'a' 는 97은 숫자였지? 그래서 숫자로도 저장할 수 있다.
+        System.out.println(ch);
 
         /*목차. 2-4 논리를 취급하는 자료형에 값 대입*/
 
@@ -88,6 +90,10 @@ public class Application02 {
         /*목차. 2-5. 문자열을 취급하는 자료형 값대입*/
 
         str = "안녕하세요";
+
+        System.out.println(str);
+
+
 
 
     }
