@@ -20,7 +20,7 @@ public class Application02 {
 
         /*목차. 1-1. 큰 자료형에서 작은 자료형으로 변경 시 강제 형변환이 필요하다*/
         /*목차. 1-1-1. 정수끼리의 강제형변환*/
-        long lnum = 9;
+        long lnum = 9L;
 //        int inum = lnum;  // 데이터 손실 가능성을 컴파일러가 알려준다.(에러가 났음)
         int inum = (int)lnum;  //변경하려는 자료형을 명시하여 강제 형변환을 해야함
 

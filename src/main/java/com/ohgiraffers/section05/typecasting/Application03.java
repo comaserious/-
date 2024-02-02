@@ -11,7 +11,7 @@ public class Application03 {
         *  다른 자료형 끼리 연산은 큰 자료형으로 자동 형변환후 연산처리가 된다*/
 
         int inum=10;
-        long lnum=100;
+        long lnum=100L;
 
 //        int isum = inum + lnum;
         int isum = (int)(inum + lnum);
